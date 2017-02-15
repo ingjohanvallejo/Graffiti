@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo_splash" translatesAutoresizingMaskIntoConstraints="NO" id="Bi0-lG-4so">
+                                <rect key="frame" x="82" y="100" width="210" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="Biu-CC-2Si"/>
+                                    <constraint firstAttribute="width" constant="210" id="Uu0-wX-mtU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_txt_splash" translatesAutoresizingMaskIntoConstraints="NO" id="ZI8-eE-ele">
+                                <rect key="frame" x="30" y="461" width="201" height="176"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="SRU-7d-o2V"/>
+                                    <constraint firstAttribute="height" constant="176" id="Vcg-Lp-ze7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ZI8-eE-ele" secondAttribute="bottom" constant="30" id="9gn-by-MT8"/>
+                            <constraint firstItem="Bi0-lG-4so" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="EQ2-0i-W7Q"/>
+                            <constraint firstItem="Bi0-lG-4so" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qrt-H1-ELg"/>
+                            <constraint firstItem="ZI8-eE-ele" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="30" id="YGJ-67-JLQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_logo_splash" width="210" height="119"/>
+        <image name="img_txt_splash" width="201" height="176"/>
+    </resources>
+</document>

@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE7053FA1E01895D00D123F5 /* GraffitiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7053F91E01895D00D123F5 /* GraffitiManager.swift */; };
+		DE7A328B1E00832F0085E02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7A328A1E00832F0085E02F /* AppDelegate.swift */; };
+		DE7A328D1E00832F0085E02F /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7A328C1E00832F0085E02F /* CurrentLocationViewController.swift */; };
+		DE7A32901E00832F0085E02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7A328E1E00832F0085E02F /* Main.storyboard */; };
+		DE7A32921E00832F0085E02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7A32911E00832F0085E02F /* Assets.xcassets */; };
+		DE7A32951E00832F0085E02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7A32931E00832F0085E02F /* LaunchScreen.storyboard */; };
+		DE7A329E1E0099800085E02F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7A329D1E0099800085E02F /* MapKit.framework */; };
+		DE7A32A01E009C7E0085E02F /* GraffitiDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7A329F1E009C7E0085E02F /* GraffitiDetailsViewController.swift */; };
+		DE7A32A21E009F510085E02F /* Graffiti.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7A32A11E009F510085E02F /* Graffiti.swift */; };
+		DED313531E01AF63008FE500 /* GraffitiImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED313521E01AF63008FE500 /* GraffitiImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE7053F91E01895D00D123F5 /* GraffitiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraffitiManager.swift; sourceTree = "<group>"; };
+		DE7A32871E00832F0085E02F /* Graffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graffiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7A328A1E00832F0085E02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE7A328C1E00832F0085E02F /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		DE7A328F1E00832F0085E02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE7A32911E00832F0085E02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE7A32941E00832F0085E02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE7A32961E00832F0085E02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7A329D1E0099800085E02F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DE7A329F1E009C7E0085E02F /* GraffitiDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraffitiDetailsViewController.swift; sourceTree = "<group>"; };
+		DE7A32A11E009F510085E02F /* Graffiti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graffiti.swift; sourceTree = "<group>"; };
+		DED313521E01AF63008FE500 /* GraffitiImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraffitiImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE7A32841E00832F0085E02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7A329E1E0099800085E02F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE7A327E1E00832F0085E02F = {
+			isa = PBXGroup;
+			children = (
+				DE7A32891E00832F0085E02F /* Graffiti */,
+				DE7A32881E00832F0085E02F /* Products */,
+				DE7A329C1E00997F0085E02F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE7A32881E00832F0085E02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE7A32871E00832F0085E02F /* Graffiti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE7A32891E00832F0085E02F /* Graffiti */ = {
+			isa = PBXGroup;
+			children = (
+				DE7A328A1E00832F0085E02F /* AppDelegate.swift */,
+				DE7A328C1E00832F0085E02F /* CurrentLocationViewController.swift */,
+				DE7A329F1E009C7E0085E02F /* GraffitiDetailsViewController.swift */,
+				DE7053F91E01895D00D123F5 /* GraffitiManager.swift */,
+				DE7A32A11E009F510085E02F /* Graffiti.swift */,
+				DED313521E01AF63008FE500 /* GraffitiImageViewController.swift */,
+				DE7A328E1E00832F0085E02F /* Main.storyboard */,
+				DE7A32911E00832F0085E02F /* Assets.xcassets */,
+				DE7A32931E00832F0085E02F /* LaunchScreen.storyboard */,
+				DE7A32961E00832F0085E02F /* Info.plist */,
+			);
+			path = Graffiti;
+			sourceTree = "<group>";
+		};
+		DE7A329C1E00997F0085E02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7A329D1E0099800085E02F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE7A32861E00832F0085E02F /* Graffiti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7A32991E00832F0085E02F /* Build configuration list for PBXNativeTarget "Graffiti" */;
+			buildPhases = (
+				DE7A32831E00832F0085E02F /* Sources */,
+				DE7A32841E00832F0085E02F /* Frameworks */,
+				DE7A32851E00832F0085E02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graffiti;
+			productName = Graffiti;
+			productReference = DE7A32871E00832F0085E02F /* Graffiti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE7A327F1E00832F0085E02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kijho;
+				TargetAttributes = {
+					DE7A32861E00832F0085E02F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TRRV84TBHR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE7A32821E00832F0085E02F /* Build configuration list for PBXProject "Graffiti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE7A327E1E00832F0085E02F;
+			productRefGroup = DE7A32881E00832F0085E02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE7A32861E00832F0085E02F /* Graffiti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE7A32851E00832F0085E02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7A32951E00832F0085E02F /* LaunchScreen.storyboard in Resources */,
+				DE7A32921E00832F0085E02F /* Assets.xcassets in Resources */,
+				DE7A32901E00832F0085E02F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE7A32831E00832F0085E02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7A328D1E00832F0085E02F /* CurrentLocationViewController.swift in Sources */,
+				DE7A32A21E009F510085E02F /* Graffiti.swift in Sources */,
+				DE7053FA1E01895D00D123F5 /* GraffitiManager.swift in Sources */,
+				DE7A328B1E00832F0085E02F /* AppDelegate.swift in Sources */,
+				DED313531E01AF63008FE500 /* GraffitiImageViewController.swift in Sources */,
+				DE7A32A01E009C7E0085E02F /* GraffitiDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE7A328E1E00832F0085E02F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7A328F1E00832F0085E02F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE7A32931E00832F0085E02F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7A32941E00832F0085E02F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE7A32971E00832F0085E02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE7A32981E00832F0085E02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE7A329A1E00832F0085E02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TRRV84TBHR;
+				INFOPLIST_FILE = Graffiti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.Graffiti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE7A329B1E00832F0085E02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TRRV84TBHR;
+				INFOPLIST_FILE = Graffiti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.Graffiti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE7A32821E00832F0085E02F /* Build configuration list for PBXProject "Graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7A32971E00832F0085E02F /* Debug */,
+				DE7A32981E00832F0085E02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7A32991E00832F0085E02F /* Build configuration list for PBXNativeTarget "Graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7A329A1E00832F0085E02F /* Debug */,
+				DE7A329B1E00832F0085E02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE7A327F1E00832F0085E02F /* Project object */;
+}
